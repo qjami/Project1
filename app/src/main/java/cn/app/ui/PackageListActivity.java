@@ -178,6 +178,7 @@ public class PackageListActivity extends EActivity<PackageListPresent>
                 rlPackageRenew.setVisibility(View.GONE);
             }
             if (zhyeTv != null && yfyeTv != null) {
+
                 String point = bean.getUnUsePoint() + "";
                 String str = getString(R.string.zh_my_logo) + ": " + point + getString(R.string.zh_point);
                 int fstart = str.indexOf(point);
