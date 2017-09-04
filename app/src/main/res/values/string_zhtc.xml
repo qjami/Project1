@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="zh_my_logo">个人账户剩余易充点数</string>
+    <string name="zh_my_yf">月费剩余电量</string>
+    <string name="zh_my_bz">个人账户余额不足</string>
+    <string name="zh_my_cz">立即充值</string>
+    <string name="zh_my_sy">剩余易充点</string>
+    <string name="zh_my_yy">已用易充点</string>
+    <string name="zh_point">点</string>
+    <string name="zh_power">度</string>
+
+    <string name="zh_get_ok">获取套餐成功！</string>
+    <string name="zh_get_error">获取套餐失败了，请稍后再试~~</string>
+
+
+
+    <string name="cd_xzfs">按充电度数充电</string>
+    <string name="cd_fs1_mk">充电度数（度）</string>
+
+
+
+    <string name="pay_xzczme">选择充值面额</string>
+    <string name="pay_title_new">我要充值</string>
+    <string name="pay_edit_input">请输入大于100充值金额</string>
+    <string name="pay_gxzf">共需支付:</string>
+    <string name="pay_xzzffs">选择支付方式</string>
+    <string name="pay_zfb">支付宝</string>
+    <string name="pay_wx">微信</string>
+    <string name="pay_yhm">优惠码</string>
+    <string name="pay_yhm_edit">请输入优惠码</string>
+    <string name="pay_y">元。</string>
+    <string name="pay_ljzf">立即支付</string>
+    <string name="pay_cza">充值即表示同意</string>
+    <string name="pay_czac">《E充站充值服务协议》</string>
+    <string name="pay_hos">消费记录</string>
+    <string name="pay_by_card"  translatable="false">使用充值卡充值>></string>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <cn.app.widget.TitleBar
+                android:id="@+id/titleBar"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                app:centerText="遥控设备"
+                app:isVisBack="false"/>
+
+            <View style="@style/line" />
+        </LinearLayout>
+
+        <View style="@style/line" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.jude.easyrecyclerview.EasyRecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:scrollbarStyle="insideOverlay"
+            app:layout_progress="@layout/view_progress"
+            app:layout_empty="@layout/view_empty"
+            />
+
+        <ProgressBar
+            android:id="@+id/pro_loading"
+            android:layout_width="188dp"
+            android:layout_height="188dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/progress_bg"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/progress_1"
+            android:gravity="center"
+            android:lineSpacingExtra="3dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_update_pwd" translatable="false">密码修改</string>
+    <string name="user_update_pwd_title" translatable="false">重置密码</string>
+    <string name="user_update_old_pwd" translatable="false">请输入旧密码</string>
+    <string name="old_pwd_is_wrong" translatable="false">旧密码输入不正确</string>
+    <string name="user_update_sms" translatable="false">请输入手机验证码</string>
+    <string name="user_update_new_pwd" translatable="false">请输入新密码</string>
+    <string name="user_update_re_new_pwd" translatable="false">请确认新密码</string>
+    <string name="user_update_new_pwd_inconsistent" translatable="false">两次输入的密码必须一致</string>
+    <string name="user_update_new_pwd_length" translatable="false">新密码长度必须是6-24位</string>
+    <string name="reg_china_phone" translatable="false">请输入正确的手机号码</string>
+    <string name="app_out" translatable="false">再按一次返回键以退出</string>
+    <string name="reserved" translatable="false">已经预约过其他电桩</string>
+    <string name="charger_no_response" translatable="false">充电桩暂时听不见呼唤,请稍后再试~</string>
+    <string name="getsms" translatable="false">获取验证码</string>
+    <string name="getsms_error1" translatable="false">手机号码不存在</string>
+    <string name="fb" translatable="false">意见反馈</string>
+    <string name="email_error" translatable="false">请输入有效的邮箱地址</string>
+    <string name="search_charge_hint" translatable="false">请输入搜索内容</string>
+    <string name="pay_order_no" translatable="false">订单号：</string>
+    <string name="pay_status_1" translatable="false">交易成功</string>
+    <string name="pay_status_2" translatable="false">订单已失效</string>
+    <string name="pay_status_3" translatable="false">待付款</string>
+    <string name="pay_status_4" translatable="false">支付成功</string>
+    <string name="pay_sooner" translatable="false">立即支付</string>
+    <string name="app_agreement" translatable="false">《E充站会员使用协议》</string>
+    <string name="title_agreement" translatable="false">E充站会员使用协议</string>
+    <string name="share_app" translatable="false">APP分享</string>
+    <string name="share_with_friend" translatable="false">把E充站分享给好友 一起体验充电的便捷</string>
+    <string name="share_msg_title" translatable="false">E充站-为你而充</string>
+    <string name="share_msg_content" translatable="false">E充站是一个提供电动车充电服务的网络平台，你可以利用E充站为你的电动车充电，也可寻找你附近的电动车电桩。赶紧下载：http://e-chong.com/app</string>
+    <string name="connected" translatable="false">connected</string>
+    <string name="disconnected" translatable="false">disconnected</string>
+    <string name="device_disconnected" translatable="false">断开连接</string>
+    <string name="ble_not_supported" translatable="false">不支持BLE~</string>
+    <string name="label_data" translatable="false">Data:</string>
+    <string name="label_device_address" translatable="false">Device address:</string>
+    <string name="label_state" translatable="false">State:</string>
+    <string name="title_devices" translatable="false">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported" translatable="false">不支持蓝牙设备~</string>
+    <string name="unknown_device" translatable="false">开启蓝牙后重试</string>
+    <string name="unknown_characteristic" translatable="false">Unknown characteristic</string>
+    <string name="unknown_service" translatable="false">Unknown service</string>
+    <string name="h1_scan" translatable="false">搜索中&#8230;\n点击取消搜索</string>
+    <string name="h1_stop" translatable="false">开始搜索\n点击搜索附件设备</string>
+    <string name="h1_title" translatable="false">遥控设备</string>
+    <string name="charging_state" translatable="false">充电状态</string>
+    <string name="device_connected" translatable="false">连接设备</string>
+    <string name="please_connect_device_when_near" translatable="false">*请到达设备附近,点击连接设备按钮进行配对</string>
+    <string name="device_connecting">正在连接…</string>
+    <string name="app_start" translatable="false">开始充电</string>
+    <string name="app_stop" translatable="false">停止充电</string>
+    <string name="need_charge_for_your_car" translatable="false">需要为爱车充电?</string>
+    <string name="privious_to_book" translatable="false">提前预约更便捷</string>
+    <string name="book_sooner" translatable="false">马上预约</string>
+    <string name="cancel_book" translatable="false">取消预约</string>
+    <string name="please_wait" translatable="false">请稍候~</string>
+    <string name="reg_fail" translatable="false">注册失败</string>
+    <string name="cancel_success" translatable="false">取消预约成功!</string>
+    <string name="after_book" translatable="false">*预约成功后,我们将为您保留30分钟</string>
+    <string name="bluetooth_is_not_open">蓝牙没打开,请打开蓝牙~</string>
+    <string name="device_disconnecting" translatable="false">手机和充电桩的连接已经断开,请重新连接~</string>
+    <string name="navi_go" translatable="false">导航前往</string>
+    <string name="navigation" translatable="false">导航</string>
+    <string name="this_charger_has_been_ordered" translatable="false">电桩已被占用,请重新选择</string> 
+    <string name="this_charger_has_been_charging_by_others" >电桩已被占用,请重新选择</string>
+    <string name="this_charger_has_been_book" translatable="false">电桩已被其它用户预订，请换台电桩再试</string>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m_detail" translatable="false">详情>></string>
+    <string name="m_pile_build" translatable="false">我要建桩</string>
+    <string name="m_account" translatable="false">账号</string>
+    <string name="m_coupon" translatable="false">优惠码</string>
+    <string name="m_please_selecte_valid" translatable="false">无法提交费用，请重新选择</string>
+    <string name="m_must_agreement" translatable="false">您必须同意充值服务协议，才能完成充值。</string>
+    <string name="m_total_must_more" translatable="false">充值金额必须大于100元</string>
+    <string name="m_total_too_much" translatable="false">你输入的金额过大，请重新输入</string>
+    <string name="m_invite_history" translatable="false">邀请记录</string>
+    <string name="m_invite" translatable="false">邀请</string>
+    <string name="m_get_credit" translatable="false">获点数:</string>
+    <string name="m_return" translatable="false">返</string>
+    <string name="m_credit" translatable="false">点</string>
+    <string name="m_power_unit" translatable="false">度/月</string>
+    <string name="m_money_unit" translatable="false">元/月</string>
+    <string name="m_current_package" translatable="false">当前套餐: </string>
+    <string name="m_current_package_is" translatable="false">当前套餐为</string>
+    <string name="m_remain" translatable="false">剩余</string>
+    <string name="m_single_monthly" translatable="false">个月</string>
+    <string name="m_select_upgrade_to" translatable="false">选择升级成</string>
+    <string name="m_pay_agio" translatable="false">还需支付差价</string>
+    <string name="m_yuan" translatable="false">元</string>
+    <string name="m_no_package" translatable="false">当前没有月费套餐~</string>
+    <string name="m_pay_history" translatable="false">消费记录</string>
+    <string name="m_your_coupon_code" translatable="false">您的优惠码:</string>
+    <string name="m_share_info_incomplete" translatable="false">分享信息不完整</string>
+    <string name="m_share_info_title" translatable="false">一桩在手,低碳我有</string>
+    <string name="m_share_info_content" translatable="false">新增8种优惠套餐,多种选择,多种优惠!平均电量最低可至1.75元/度!</string>
+    <string name="m_share_cancel" translatable="false">分享取消</string>
+    <string name="m_share_coupon_overflow" translatable="false">优惠券大于支付金额，是否使用？</string>
+    <string name="m_use_credit" translatable="false">使用e充点</string>
+    <string name="m_confirm" translatable="false">"确认"</string>
+    <string name="m_cancel" translatable="false">取消</string>
+    <string name="m_confirm_order" translatable="false">确认订单</string>
+    <string name="m_e_payment" translatable="false">E充站充值</string>
+    <string name="m_user" translatable="false">用户</string>
+    <string name="m_buy" translatable="false">购买</string>
+    <string name="m_code_coupon" translatable="false">优惠码优惠</string>
+    <string name="m_pay_zero" translatable="false">需支付0元</string>
+    <string name="m_order_code" translatable="false">元易充点，流水号:</string>
+    <string name="m_pay_yfxz" translatable="false">月费购买须知</string>
+    <string name="m_package_stop" translatable="false">月费套餐停止</string>
+    <string name="m_package_upgrade" translatable="false">月费套餐升级</string>
+    <string name="m_my_package" translatable="false">我的套餐</string>
+    <string name="m_package_desc" translatable="false">套餐介绍:</string>
+    <string name="m_monthly_valid" translatable="false">月费有效期:</string>
+    <string name="m_monthly_renew" translatable="false">月费续费</string>
+    <string name="m_package" translatable="false">月费套餐</string>
+    <string name="m_e_balance" translatable="false">个人账户剩余易充点数: --点</string>
+    <string name="m_p_balance" translatable="false">月费剩余电量: --度</string>
+    <string name="m_yf_xf" translatable="false">1. 所有月费都是自订购日起计算, 次月1日生效。您也可选择支付一定的比例金额(计算公式: 套餐金额*剩余天数/总天数), 即可在套餐生效前享受当月全部。\n2. 您在选定所需包月套餐类型及期限后, 需一次性付清所订购期限对应的费用。</string>
+    <string name="m_yf_ds" translatable="false">次月生效</string>
+    <string name="m_yf_upgrade_help" translatable="false">1. 若合约期内,套餐被使用且剩余月份大于等于1的情况下允许升级。\n2. 仅需支付差价则可升级到更高套餐。\n3. 升级套餐于次月生效, 套餐包赠品沿用升级前级别, 不退不换, 不再额外升级。</string>
+    <string name="m_yf_stop_help" translatable="false">1. 包月套餐属于促销产品，一经签订，则无法退款。\n2. 若特殊情况暂时中止服务，我司支持冻结合约期业务，您需支付30元/月的冻结管理费（可通过E充点数代扣）。\n3. 若因公司等原因造成的中止服务，您的包月套餐服务合约自动顺延，无需支付管理费。</string>
+    <string name="m_yf_stop" translatable="false">请拨打24小时客服热线!</string>
+    <string name="m_yf_build" translatable="false">1. 若您拥有固定产权车位, 仅需支付6800元即可参与私人桩建设服务(包含一年保修服务, 此活动仅包含电桩及基础施工费用)。\n2. 参与6800私人桩建设服务的用户,可选择购买399元/年的无忧售后延保业务。\n3. 详情请咨询客服400-1800910</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\y-hub\Project1\app\libs\wup-1.0.0.E-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5a0917f8418b3726f89ae120182dfb6b884740d">
+        <dex dex="D:\y-hub\Project1\app\build\intermediates\transforms\dex\debug\folders\1000\2\wup-1.0.0.E-SNAPSHOT_ab1d16a9e77cce56612f6fdff7d28e228d58604e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\y-hub\Project1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="035d8e245950a09dfc4ef615248b86186e3d1822">
+        <dex dex="D:\y-hub\Project1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_00eec0899a6cfb6e6060350ca7b0afb13cd3d497\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\y-hub\Project1\app\libs\jg_filter_sdk_1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ebfc3cde0309ff27e9568757784eefefc71407a2">
+        <dex dex="D:\y-hub\Project1\app\build\intermediates\transforms\dex\debug\folders\1000\2\jg_filter_sdk_1.1_6f7fb9579ab154653e0d3899d23f0939c7856c7b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\y-hub\Project1\app\libs\Xg_sdk_v3.1_20170417_0946.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dadedb074385555924c5cb7aa42e69ed270aa3cd">
+        <dex dex="D:\y-hub\Project1\app\build\intermediates\transforms\dex\debug\folders\1000\2\Xg_sdk_v3.1_20170417_0946_183d7d96cd180107e025feb4c3bc9526a05c4f43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\y-hub\Project1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="D:\y-hub\Project1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_60993317bbbaa40d3d84705fa11e357aa10fba8f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\y-hub\Project1\app\libs\mid-core-sdk-3.7.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d3570cc6c1a0e219ddb8e626273a7cb80cd030b">
+        <dex dex="D:\y-hub\Project1\app\build\intermediates\transforms\dex\debug\folders\1000\2\mid-core-sdk-3.7.2_fd595199c11f46f0615ce1a9c6730aa37b9c8c22\classes.dex" />
+    </item>
+
+</items>

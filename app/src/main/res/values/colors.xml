@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ec6d6d</color>
+    <color name="red2">#ff8f8f</color>
+    <color name="green">#44C7A7</color>
+    <color name="green2">#2db795</color>
+    <color name="font_red">#DC2A1B</color>
+    <color name="base_bg">#F7F7F7</color>
+    <color name="bg_reresh_time">#e5e5e5</color>
+    <color name="font_unclik">#989898</color>
+    <color name="left_drawer_no_login_tip_text">#ffffff</color>
+    <color name="left_drawer_user_name">#ffd4d4d4</color>
+    <color name="left_drawer_item_text_normal">#ffc3c3c3</color>
+    <color name="left_drawer_item_text_pressed">#ffc3c3c3</color>
+    <color name="left_drawer_item_text_tip">#fffe3232</color>
+    <color name="left_drawer_item_bg_normal">#ff171717</color>
+    <color name="left_drawer_item_bg_pressed">#ff222222</color>
+    <color name="left_drawer_item_line">#ff262626</color>
+    <color name="left_drawer_offline_line">#ff4bbff6</color>
+    <color name="left_drawer_offline_hint">#ff6699cc</color>
+    <color name="left_drawer_night_mode_text">#ffb8b8b8</color>
+    <color name="unread_font">#4EA9E9</color>
+    <color name="location_pop">#90EE90</color>
+    <color name="bg_card">#F29F34</color>
+    <color name="bg_online">#82BDFF</color>
+    <color name="pay_success">#56A4EC</color>
+    <color name="pay_failure">#FAB059</color>
+    <color name="back_ground_1">#dddddd</color>
+    <color name="back_ground_2">#eeeeee</color>
+    <color name="ready">#52b4e6</color>
+    <color name="use">#e4476c</color>
+    <color name="reserve">#edb734</color>
+    <color name="unconnect">#bdbdbd</color>
+    <color name="company_user">#28AF78</color>
+    <color name="company_user_line">#119293</color>
+    <color name="book_charge_fragment">#FEB300</color>
+    <!-- 协议 -->
+    <color name="agree_ment_color">#929292</color>
+    <color name="line_color1">#cecece</color>
+    <color name="line_color2">#9c9c9c</color>
+    <color name="line_color3">#919191</color>
+
+    <!-- 主色 -->
+    <color name="main_color">#95BE3A</color>
+    <color name="hot_line">#abcb21</color>
+    <!-- 标题、正文、可编辑文字 -->
+    <color name="text_color_title">#3b3b3b</color>
+    <!-- 辅助文字、提示、评论、 -->
+    <color name="text_color_mark">#808080</color>
+    <!-- 不可点击 -->
+    <color name="text_color_no_click">#7e7e7e</color>
+    <!-- 特殊提示、可点击 -->
+    <color name="text_color_click">#8963c8</color>
+    <!-- 输入框 -->
+    <color name="text_color_hint">#D0D0D0</color>
+    <color name="pay_success_line">#C6D6A3</color>
+    <color name="text_color_5">#333333</color>
+    <color name="text_color_12">#a8a8a8</color>
+    <color name="text_color_13">#8a8a8a</color>
+    <color name="text_color_14">#686868</color>
+    <color name="text_color_15">#626262</color>
+    <color name="text_color_16">#b5b5b5</color>
+    <color name="text_color_17">#A0A0A0</color>
+    <color name="text_color_18">#8e8e8e</color>
+    <color name="text_color_19">#ff853c</color>
+    <color name="text_color_20">#9e9e9e</color>
+    <color name="text_color_31">#6d6d6d</color>
+    <color name="text_color_32">#4cce1f</color>
+    <color name="text_color_33">#e23a3a</color>
+    <color name="text_color_36">#080808</color>
+    <color name="text_color_37">#7c7c7c</color>
+    <color name="text_color_38">#6f7268</color>
+    <color name="text_color_39">#5e5e5e</color>
+    <color name="text_color_40">#363636</color>
+    <color name="text_color_41">#737373</color>
+    <color name="text_color_42">#474747</color>
+    <color name="text_color_43">#00a0e9</color>
+    <color name="text_color_44">#f39800</color>
+    <color name="text_color_45">#fcb442</color>
+    <color name="text_color_46">#0e0e0e</color>
+    <color name="text_color_47">#ff3030</color>
+    <color name="text_color_48">#60c0ec</color>
+    <color name="book_color">#F39800</color>
+    <color name="minus">#d1d1d1</color>
+    <!-- 辅助色 -->
+    <!-- 页面背景色 -->
+    <color name="bg_color">#f7f7f7</color>
+    <!-- 页面背景色 -->
+    <color name="bg_title">#ccf7f7f7</color>
+    <color name="charging_bg">#fafafa</color>
+    <!-- HSB 85%灰 描边 -->
+    <color name="bg_line">#D8D8D8</color>
+    <color name="charging_line">#dedede</color>
+    <!-- 橘黄色 -->
+    <color name="color_1">#FF7A40</color>
+    <!-- 蓝色 -->
+    <color name="bule1">#95BE3A</color>
+    <!-- 蓝色 -->
+    <color name="bule2">#86b819</color>
+    <color name="points">#e89674</color>
+    <!-- 浅蓝 -->
+    <color name="color_3">#7892dc</color>
+    <color name="line_color_3">#f4f3f3</color>
+    <!-- 深粉 -->
+    <color name="color_4">#e667ce</color>
+    <!-- 深灰 -->
+    <color name="deep_gray">#949494</color>
+    <!-- 翠绿 -->
+    <color name="color_5">#01ceb4</color>
+    <!-- 棕灰 -->
+    <color name="color_6">#9993ab</color>
+    <!-- 棕黄 -->
+    <color name="color_7">#b98f81</color>
+    <color name="color_10">#FF995B</color>
+    <!-- 橙色 -->
+    <color name="color_8">#f7aa26</color>
+    <!-- 浅黄 -->
+    <color name="color_9">#ffd141</color>
+    <!-- 透明 -->
+    <color name="tm">#00000000</color>
+    <!-- 透明 -->
+    <color name="b_tm">#22000000</color>
+    <!-- 快速注册 -->
+    <color name="reg_quick">#f0a441</color>
+    <!-- 快充卡 -->
+    <color name="E_chong">#7bb4e9</color>
+    <!-- 易充卡背景 -->
+    <color name="E_card_back">#FB8787</color>
+    <color name="E_card_text_color">#CC5656</color>
+    <!-- 易充卡透明背景 -->
+    <color name="img_trans">#3b000000</color>
+    <!-- 默认颜色 -->
+    <color name="radiobutton1">#7F7F7F</color>
+    <!-- 选中颜色 -->
+    <color name="radiobutton2">#BE2623</color>
+    <color name="remember_account">#9e9e9e</color>
+    <!-- 标题背景颜色 -->
+    <color name="actionbar_bg">#171717</color>
+    <!-- checkbox 背景颜色 -->
+    <color name="check_box_1">#1c1f37</color>
+    <color name="check_box_2">#e89a1d</color>
+    <color name="linear_yellow">#ffdea9</color>
+    <color name="text_color0">#444444</color>
+    <color name="text_color">#8b8b8b</color>
+    <color name="text_color_1">#b4b4b4</color>
+    <color name="text_color_2">#3d4795</color>
+    <color name="text_color_3">#666666</color>
+    <color name="text_color_4">#999999</color>
+    <color name="line_color">#000080</color>
+    <color name="line_color_1">#33364c</color>
+    <color name="line_color_2">#cccccc</color>
+    <color name="text_color_21">#6D6D6D</color>
+    <color name="text_color_22">#7e7e7e</color>
+    <color name="text_color_23">#7a7a7a</color>
+    <color name="text_color_24">#5b5b5b</color>
+    <color name="text_color_25">#656565</color>
+    <color name="text_color_26">#8e8e8e</color>
+    <color name="text_color_27">#5d8ae6</color>
+    <color name="text_color_28">#8b8b8b</color>
+    <color name="text_color_29">#979797</color>
+    <color name="text_color_30">#5f5f5f</color>
+    <color name="text_color_34">#2683cb</color>
+    <color name="text_color_35">#e63f3f</color>
+    <color name="text_color_49">#ff0000</color>
+    <color name="charge_back">#f2fff6</color>
+    <color name="charge_process_bg">#f3f3f3</color>
+    <color name="charge_process">#6f7268</color>
+    <color name="charge_power">#ff9584</color>
+    <color name="item_solid">#f5f5f5</color>
+    
+    <!-- 扫描充电桩 -->
+    <color name="charger_text_title">#3f3f3f</color>
+    <color name="charger_text_content">#787878</color>
+    <color name="bg_charger_title">#ffe4c2</color>
+    <color name="charger_text_tip">#ff7200</color>
+    <color name="text_blue_color">#68CDFB</color>
+    <color name="text_title_color">#F05B47</color>
+    
+    
+    <drawable name="red">#BC1F1F</drawable>  
+    <drawable name="green">#FFFFFF</drawable>
+
+    <color name="bg_coupon_code">#ff8400</color>
+</resources>

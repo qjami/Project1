@@ -1,0 +1,200 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="font_title_top" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/main_color</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">@dimen/text_size_top</item>
+    </style>
+
+    <style name="font_ev" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_color_title</item>
+        <item name="android:textColorHint">@color/text_color_hint</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="set_font" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_color_mark</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="set_font1" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_color_12</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="set_font2" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_color_13</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="set_font3" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_color_14</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="set_font4" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@color/text_color_15</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/bg_line</item>
+    </style>
+
+    <style name="line_">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/bg_line</item>
+    </style>
+
+    <declare-styleable name="EditItemView">
+        <attr name="title" format="string" />
+        <attr name="hint" format="string" />
+        <attr name="empty" format="boolean" />
+        <attr name="drawable_left" format="reference" />
+        <attr name="drawable_right" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CitySelectItem">
+        <attr name="left" format="string" />
+        <attr name="center" format="string" />
+        <attr name="right" format="string" />
+    </declare-styleable>
+    <!-- 主页 textview -->
+    <style name="home_textstyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/tab_main_selector</item>
+        <item name="android:background">@drawable/bg_main_item</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/text_size_toast</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- button -->
+    <style name="button_textstyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_cont</item>
+        <item name="android:background">@drawable/bg_bule_bt</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <string-array name="progress_value_options" translatable="false">
+        <item>Cycle between 0% and 100%</item>
+        <item>0%</item>
+        <item>10%</item>
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="progress_color_options" translatable="false">
+        <item>Default</item>
+        <item>Red</item>
+        <item>Magenta</item>
+    </string-array>
+    <string-array name="wheel_color_options" translatable="false">
+        <item>Default</item>
+        <item>Light Gray</item>
+        <item>Gray</item>
+    </string-array>
+
+    <style name="charge_power">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/text_color_40</item>
+    </style>
+
+    <style name="charge_unit">
+        <item name="android:textSize">@dimen/text_size_toast</item>
+        <item name="android:textColor">@color/text_color_41</item>
+    </style>
+
+    <style name="charge_ing">
+        <item name="android:textSize">@dimen/text_size_title_btn</item>
+        <item name="android:textColor">@color/main_color</item>
+    </style>
+
+    <style name="checkbox_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@drawable/checkbox_agreement_style</item>
+        <item name="android:textColor">@color/text_color_mark</item>
+        <item name="android:textSize">@dimen/text_size_mark</item>
+    </style>
+
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <style name="ActionCarDialogStyle" parent="@android:style/Theme.Dialog">
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionCarDialogAnimation</item>
+    </style>
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+    <!-- ActionCarSheet进出动画 -->
+    <style name="ActionCarDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actioncar_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actioncar_dialog_out</item>
+    </style>
+
+</resources>

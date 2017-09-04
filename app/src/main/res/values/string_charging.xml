@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rm_c_ble_start" translatable="false">蓝牙开始充电</string>
+    <string name="rm_c_start_api_s" translatable="false">远程启动充电正常，请留意电桩状态变化，请您确保正常充电后离开。</string>
+    <string name="rm_c_stop_api_s" translatable="false">远程停止正常，请留意电桩状态变化，请您确保正常停电后离开。</string>
+    <string name="rm_c_start_api_109" translatable="false">当前电桩不支持远程启动充电，请换其他电桩或使用蓝牙启动充电，系统码：</string>
+    <string name="rm_c_start_api_100" translatable="false">用户信息错误，请重新登录，系统码：</string>
+    <string name="rm_c_start_api_700" translatable="false">启停充电失败，可能电桩网络出异常了，请稍后重试或用蓝牙启动充电，系统码：</string>
+    <string name="rm_c_start_api_700_e" translatable="false">停止充电失败，可能电桩网络出异常了，请稍后重试，系统码：</string>
+    <string name="rm_c_start_api_700_e_169" translatable="false">停止充电失败，可能电桩网络出异常了，请尝试蓝牙停止充电或解锁，系统码：</string>
+    <string name="rm_c_start_api_700_e_169_button" translatable="false">蓝牙停止</string>
+    <string name="rm_c_start_api_701" translatable="false">充电电量输入有误，请重新输入</string>
+    <string name="rm_c_start_api_108" translatable="false">您正在充电，正在为您跳转</string>
+    <string name="rm_c_start_api_202" translatable="false">电桩已被占用，请换其他电桩试试吧</string>
+    <string name="rm_c_start_api_314" translatable="false">电桩已被预约，请换其他电桩试试吧</string>
+    <string name="rm_c_start_api_312" translatable="false">当前用户无法启动充电，请检查用户信息或联系依威客服，系统码：</string>
+    <string name="rm_c_start_api_306" translatable="false">您无权使用当前电桩，请换电桩试试吧，系统码：</string>
+    <string name="rm_c_start_api_301" translatable="false">亲，余额不足了，请先充值，系统码：</string>
+    <string name="rm_c_start_api_315" translatable="false">亲，当前电桩还没有开始充电呢，系统码：</string>
+    <string name="rm_c_start_api_102" translatable="false">紧急按钮已按下，请拔起紧急按钮再试，系统码：</string>
+    <string name="rm_c_start_api_scord" translatable="false">,系统码：</string>
+    <string name="rm_c_start_api_t1" translatable="false">温馨提示</string>
+    <string name="rm_c_start_api_retry" translatable="false">立即重试</string>
+    <string name="rm_c_start_api_ble" translatable="false">蓝牙启动</string>
+    <string name="rm_c_start_api_yes" translatable="false">知道了</string>
+    <string name="rm_c_start_api_offline" translatable="false">您的手机暂时无法上网，是否使用蓝牙启动充电</string>
+    <string name="rm_c_start_api_way" translatable="false">选择充电方式</string>
+    <string name="rm_c_start_api_way_c" translatable="false">1、无需设置电量直接充满\n2、设置电量开启蓝牙充电</string>
+    <string name="rm_c_start_api_way_1" translatable="false">直接充满</string>
+    <string name="rm_c_start_api_way_2" translatable="false">设置电量</string>
+
+
+    <string name="c_r_t_f" translatable="false">总电费： </string>
+    <string name="c_r_t_s" translatable="false">总服务费： </string>
+    <string name="c_r_s_b_b" translatable="false">蓝牙启动</string>
+    <string name="c_r_s_b_c" translatable="false">拍卡启动</string>
+    <string name="c_r_s_b_d" translatable="false">VPN启动</string>
+    <string name="c_r_s_s_b" translatable="false">蓝牙停止充电</string>
+    <string name="c_r_s_s_c" translatable="false">停止充电</string>
+    <string name="push_s_c" translatable="false">是否立即查看充电状态?</string>
+    <string name="push_s_y" translatable="false">立即查看</string>
+    <string name="push_s_n" translatable="false">取消</string>
+
+    <string name="push_e_c" translatable="false">是否需要重新启动充电?</string>
+    <string name="push_e_y" translatable="false">重新启动</string>
+    <string name="push_e_n" translatable="false">取消</string>
+
+
+    <string name="push_stop_s_c" translatable="false">是否立即查看充电记录?</string>
+
+    <string name="push_stop_e_c" translatable="false">请你重新操作停止充电。</string>
+    <string name="push_stop_e_y" translatable="false">停止充电</string>
+    <string name="push_stop_e_n" translatable="false">取消</string>
+
+
+    <string name="push_stop" translatable="false">确定结束充电</string>
+    <string name="push_stop_y" translatable="false">确定</string>
+    <string name="push_stop_n" translatable="false">取消</string>
+
+    <string name="push_ad_c" translatable="false">\n是否需要立即查看？</string>
+
+    <string name="target">Your Device Target:</string>
+    <string name="stop_service">Stop Push Service</string>
+    <string name="start_service">Start Push service</string>
+    <string name="about">www.tokudu.com</string>
+
+</resources>

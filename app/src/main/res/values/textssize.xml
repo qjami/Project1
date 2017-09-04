@@ -1,0 +1,20 @@
+<resources>
+
+    <dimen name="text_size_top_big">22.0dip</dimen>
+    <!-- 顶部导航栏字 -->
+    <dimen name="text_size_top">20.0dip</dimen>
+    
+    <!-- 主标题 -->
+    <dimen name="text_size_title">18.0dip</dimen>
+    <!-- 副标题加粗，内容⽂文字 -->
+    <dimen name="text_size_cont">14.0dip</dimen>
+    <!-- 选项卡⽂文字 顶部操作文 字-->
+    <dimen name="text_size_title_btn">14.0dip</dimen>
+    <!-- 提示类文字，区域性文字 -->
+    <dimen name="text_size_toast">12.0dip</dimen>
+    <!-- 其他辅助⽂文字 -->
+    <dimen name="text_size_mark">10.0dip</dimen>
+
+    
+
+</resources>

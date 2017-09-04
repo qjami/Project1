@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--电桩详情 &　支付详情页面-->
+    <string name="charging_method_degree">按充电度数充电（度）</string>
+    <string name="charging_method_package">按月费套餐充电</string>
+    <string name="charging_method_easy_points">按易充点数充电（点）</string>
+    <string name="easy_point">易充点</string>
+    <string name="easy_point_tips">易充点数（点）</string>
+    <string name="charging_degree_tip">充电度数（度）</string>
+    <string name="charging_set_degree_warning">您预设的电量过大，建议输入合理的电量！</string>
+    <string name="notsupport_monthly_warning">该桩暂不支持使用月费</string>
+    <string name="charging_account_info_tip">个人账户:</string>
+    <string name="charging_monthly_package_last">个人账户:</string>
+    <string name="charging_monthly_package_remind">您的月费套餐剩余%1$s度</string>
+    <string name="charging_service_charge">服务费：%1$s易充点/度</string>
+    <string name="charging_point_last">剩余%1$s易充点</string>
+    <string name="charging_start_dialog_num_tip">即将开始充电，目标%1$s度，如中间停止请再连接电桩刷新数据！</string>
+    <string name="charging_start_dialog_monthly_tip">即将开始充电，如中间停止请再连接电桩刷新数据！</string>
+    <string name="guide_monthly_tips">新增包月套餐，多种选择省省省！</string>
+    <string name="guide_location_tips">默认当前定位，一键找桩快快快！</string>
+    <string name="guide_promo_code_tips">终身优惠码，邀请好友赚赚赚！</string>
+    <string name="personal_account">个人账户</string>
+    <string name="complete_material_title">完善资料即可享受更多充值优惠，请前往完善~</string>
+    <string name="jump_over">跳过</string>
+    <string name="complete_material_go">去完善</string>
+    <string name="control_notenough_power_tips">电量不足，请立即充值</string>
+    <string name="control_notenough_easy_tips">易充点不足，请立即充值</string>
+    <string name="chargin_monthly_pageage_tips_one">月费套餐次月生效,请选择"按易充点充电",即充即用</string>
+    <string name="chargin_monthly_pageage_tips_1">月费套餐次月生效.购买套餐已赠</string>
+    <string name="chargin_monthly_pageage_tips_2">易充点，请选择"按易充点充电"即刻使用</string>
+
+</resources>

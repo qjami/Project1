@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/base_bg" />
+
+
+    <TextView
+        android:id="@+id/tv_pnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/zh_my_qy"
+        android:gravity="left|center_vertical"
+        android:drawablePadding="10dp"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_title" />
+
+
+    <View style="@style/line" android:layout_marginLeft="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_sy"
+                style="@style/font_title_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="0"
+                android:textColor="@color/text_color_19" />
+
+            <TextView
+                style="@style/font_title_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zh_my_sy"
+                android:textColor="@color/text_color_mark"
+                android:textSize="@dimen/text_size_title_btn" />
+        </LinearLayout>
+
+        <View style="@style/line_" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_yy"
+                style="@style/font_title_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="0"
+                android:textColor="@color/text_color_19" />
+
+            <TextView
+                style="@style/font_title_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zh_my_yy"
+                android:textColor="@color/text_color_mark"
+                android:textSize="@dimen/text_size_title_btn" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

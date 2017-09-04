@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+            <cn.app.widget.TitleBar
+                android:id="@+id/titleBar"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                app:centerText="我的"
+                app:isVisBack="false"/>
+
+        <View style="@style/line" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:padding="15dp" >
+
+        <TextView
+            style="@style/font_ev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版本" />
+
+        <TextView
+            android:id="@+id/version_tv"
+            style="@style/font_ev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="" />
+    </RelativeLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <LinearLayout
+        android:id="@+id/loginLoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp" >
+
+            <TextView
+                style="@style/font_ev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户" />
+
+            <TextView
+                android:id="@+id/name_tv"
+                style="@style/font_ev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="" />
+        </RelativeLayout>
+
+        <View
+            style="@style/line"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+        <RelativeLayout
+            android:id="@+id/ry_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:padding="15dp" >
+
+            <TextView
+                style="@style/font_ev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="扫一扫" />
+
+            <TextView
+                android:id="@+id/search_tv"
+                style="@style/font_ev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="" />
+        </RelativeLayout>
+
+        <View
+            style="@style/line"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/record_loy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_loy_chick"
+            android:clickable="true"
+            android:padding="15dp" >
+
+            <TextView
+                style="@style/font_ev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/icon_go"
+                android:text="全部充电记录" />
+        </RelativeLayout>
+        <View
+            style="@style/line"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/project_online"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_loy_chick"
+            android:clickable="true"
+            android:padding="15dp" >
+
+            <TextView
+                style="@style/font_ev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/icon_go"
+                android:text="固件版本下载" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_bule_bt"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="马上登录"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_red_bt"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="退出登录"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</LinearLayout>

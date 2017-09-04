@@ -1,0 +1,105 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <!-- Application theme. -->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>-->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="alertDialogTheme">@style/Theme.AppCompat.Light.Dialog.Alert.Self</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowIsTranslucent">true</item>--> edit by li.qing 导致其它页面返回到主页会闪现桌面的问题
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Theme.AppLauncher" parent="AppTheme">
+        <item name="android:windowBackground">@mipmap/loading</item>
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog.Alert.Self" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <!--修改AlertDialog按钮的颜色-->
+        <item name="colorAccent">@color/main_color</item>
+    </style>
+    <style name="Popup_Animation_Alpha" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/layout_alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/layout_alpha_out</item>
+    </style>
+
+    <style name="TestSpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">#00000000</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <style name="SampleTheme" parent="android:Theme.Light">
+        <item name="android:dropDownListViewStyle">@style/TestSpinnerStyle</item>
+    </style>
+    
+    <style name="MyWidget" parent="@android:style/Theme" />
+    
+    <style name="MyWidget.TabText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+    <style name="MyWidget.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:cacheColorHint">#00ffffff</item>
+        <item name="android:dividerHeight">2px</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+    </style>
+
+
+
+
+    <style name="mProgress_circle">  
+        <item name="android:indeterminateDrawable">@drawable/progress_circle_loading</item>
+        <item name="android:minWidth">36dp</item>
+        <item name="android:minHeight">46dp</item>
+        <item name="android:maxWidth">60dp</item>  
+        <item name="android:maxHeight">76dp</item>
+    </style>
+
+    <style name="my_dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="dialogstyle" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="stroke_transparent_style">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingRight">25dp</item>
+        <item name="android:paddingLeft">25dp</item>
+        <item name="android:background">@drawable/bg_stroke_transparent</item>
+    </style>
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+</resources>

@@ -1,0 +1,33 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "conf.gradle"
+buildscript {
+    // 如果需要的话，从https://jcenter.bintray.com/下载code reposities。
+    repositories {
+        jcenter()
+    }
+    // 定义classpath，gradle会从“repositories”中下载对应版本的Gradle。如果使用gradle wrapper的话
+    // ，感觉这个配置会被忽略。Wrapper会自己去下载所使用的gradle版本。
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.1'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath "io.realm:realm-gradle-plugin:2.2.2"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+// 该配置会被应用到所有的子工程。
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://github.com/uPhyca/stetho-realm/raw/master/maven-repo'
+        }
+    }
+}
+// 运行gradle clean时，执行此处定义的task。
+// 该任务继承自Delete，删除根目录中的build目录。
+// 相当于执行Delete.delete(rootProject.buildDir)。
+// gradle使用groovy语言，调用method时可以不用加（）。
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
